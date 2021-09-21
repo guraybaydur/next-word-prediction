@@ -24,29 +24,3 @@ Guidelines
 2) Run main.py file to train the network. Training accuracy, validation accuracy as well as their respective losses are reported here. Please choose minimum batch size, epoch and learning rate. You can skip with defaults via pressing Enter.
 3) Run eval.py file to load the params from model.pk and observe the test accuracy. You will also see the 3 word predictions in the project tasks. If you want to test the prediction for another 3 words you can try it out in the end.
 4) Run tsne.py to see the similarity between word embeddings via plot.
-
-
-## License
-
-MIT License
-
-Copyright (c) [2021] [Güray Baydur]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
