@@ -20,10 +20,10 @@ Prereqs
 1) Please put all *.py files in the same directory
 
 Guidelines
-0) For all .py file executions you can specify the location of the dataset(it could be relative or absolute). You can skip with default location which is "data/" via pressing Enter. If you want to override, please put forward slash to the end of the relative path .
-1) Run main.py file to train the network. Training accuracy, validation accuracy as well as their respective losses are reported here. Please choose minimum batch size, epoch and learning rate. You can skip with defaults via pressing Enter.
-2) Run eval.py file to load the params from model.pk and observe the test accuracy. You will also see the 3 word predictions in the project tasks. If you want to test the prediction for another 3 words you can try it out in the end.
-3) Run tsne.py to see the similarity between word embeddings via plot.
+1) For all .py file executions you can specify the location of the dataset(it could be relative or absolute). You can skip with default location which is "data/" via pressing Enter. If you want to override, please put forward slash to the end of the relative path .
+2) Run main.py file to train the network. Training accuracy, validation accuracy as well as their respective losses are reported here. Please choose minimum batch size, epoch and learning rate. You can skip with defaults via pressing Enter.
+3) Run eval.py file to load the params from model.pk and observe the test accuracy. You will also see the 3 word predictions in the project tasks. If you want to test the prediction for another 3 words you can try it out in the end.
+4) Run tsne.py to see the similarity between word embeddings via plot.
 
 
 # Project Title
