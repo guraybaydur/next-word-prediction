@@ -2,6 +2,8 @@
 
 In this project, I train a neural language model using a multi-layer perceptron given below. This network receives 3 consecutive words as the input and aims to predict the next word. I train this model using cross-entropy loss function, which corresponds to maximizing the probability of the target word.
 
+![alt text](https://github.com/guraybaydur/next-word-prediction/blob/main/architecture.png)
+
 The network consists of a 16 dimensional embedding layer, a 128 dimensional hidden layer and one output layer. The input consists of a sequence of 3 consecutive words, provided as integer valued indices representing a word in our 250-word dictionary. I need to convert each word to it’s one-hot representation and feed it to the embedding layer which will be 250 × 16 dimensional. Hidden layer will have sigmoid loss function and the output layer is a softmax over the 250 words in our dictionary. After the embedding layer, 3 word embeddings are concatenated and fed to the hidden layer.
 
 ### Data
