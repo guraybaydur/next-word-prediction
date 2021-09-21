@@ -6,11 +6,11 @@ In this project, I train a neural language model using a multi-layer perceptron 
 
 The network consists of a 16 dimensional embedding layer, a 128 dimensional hidden layer and one output layer. The input consists of a sequence of 3 consecutive words, provided as integer valued indices representing a word in our 250-word dictionary. I need to convert each word to it’s one-hot representation and feed it to the embedding layer which will be 250 × 16 dimensional. Hidden layer will have sigmoid loss function and the output layer is a softmax over the 250 words in our dictionary. After the embedding layer, 3 word embeddings are concatenated and fed to the hidden layer.
 
-### Data
+## Data
 
-Train/Validation/Test splits are provided to you in the project folder. Words in the dictionary can be found in vocab.npy file.3
+Train/Validation/Test splits are provided to you in the project folder. Words in the dictionary can be found in vocab.npy file.
 
-### Visualization
+## Visualization
 
 I also created a 2-D plot of the embeddings using t-SNE which maps nearby 16 dimensional embeddings close to each other in the 2-D space. I used of the shelf t-SNE functions. tsne.py file is the file where you load model parameters, return the learned embeddings, and plot t-SNE. 
 
