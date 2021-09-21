@@ -14,7 +14,7 @@ Train/Validation/Test splits are provided to you in the project folder. Words in
 
 I also created a 2-D plot of the embeddings using t-SNE which maps nearby 16 dimensional embeddings close to each other in the 2-D space. I used of the shelf t-SNE functions. tsne.py file is the file where you load model parameters, return the learned embeddings, and plot t-SNE. 
 
-### Steps to run the codes
+## Steps to run the codes
 
 Prereqs
 1) Please put all *.py files in the same directory
